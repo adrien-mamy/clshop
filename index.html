@@ -1,0 +1,545 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> CL-Shop: Boutique en Ligne</title>
+	<!-- Liaison des fichier bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- debut menu de navigation -->
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		  <div class="container-fluid">
+		    <a class="navbar-brand text-white" href="#">CODINGLIFE</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            BOUTIQUE
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="shop.html">Produit</a></li>
+		            <li><a class="dropdown-item" href="electronic.html">Electronique</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" href="blog.html">BLOG</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" href="signup.html">INSCRIPTION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" href="login.html">CONNEXION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" href="about.html">A PROPOS</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- fin menu de navigation -->
+		<!-- debut carousel -->
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/carousel/1.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel/2.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel/3.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel/4.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/carousel/5.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  	<!-- fin carousel -->
+		</div>
+	</div>
+	<!-- debut main -->
+	<main class="container-fluid" >
+		<div class="card text-center mt-3" style="background-color: #050a30";>
+		  <div class="card-body bg-danger text-white w-70" style="margin: 10px auto; border-radius: 10px">
+		    <h2 class="card-title text-uppercase">Tout a commencé par une idée simple</h2>
+		    <p class="card-text fs-3">Créer des produits de qualité et bien conçus que je voulais moi-même.</p>
+		  </div>
+		</div>
+	<div class="card">
+		<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+			  <div class="col">
+				    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					      <div class="carousel-inner">
+						        <div class="carousel-item active">
+							          <img src="img/v9.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Collection Hommes</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/s2.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Collection Femme</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/enfant.jpg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Collection Enfant</h3>
+							          </div>
+						        </div>
+					      </div>
+				    </div>
+			  </div>
+			  <div class="col">
+				    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					      <div class="carousel-inner">
+						        <div class="carousel-item active">
+							          <img src="img/ordi.jpg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3 class="text-dark">Ordinateur</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/clim1.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Climatisateur</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/elec.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Electromena</h3>
+							          </div>
+						        </div>
+					      </div>
+				    </div>
+			  </div>
+			  <div class="col">
+				    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					      <div class="carousel-inner">
+						        <div class="carousel-item active">
+							          <img src="img/iphone.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Iphone</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/itel.jpeg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3>Itel</h3>
+							          </div>
+						        </div>
+						        <div class="carousel-item">
+							          <img src="img/samm.jpg" class="d-block w-100" alt="...">
+							          <div class="carousel-caption d-none d-md-block">
+								            <h3 class="text-dark">Samsung</h3>
+							          </div>
+						        </div>
+					      </div>
+				    </div>
+			  </div>
+		</div>
+
+	</div>
+	<div class="card mt-2" style="margin: 0px 10px;">
+		<div class="row p-4" style="background-color: #000C66">
+			<div class="col-md-8">
+				 <h4 class="text-white">Nous joindre maintenant</h4>
+			</div>
+			<div class="col-md-4">
+				<button class="btn btn-outline-danger">622 00 00 00</button>
+			</div>
+		</div>
+	</div>
+ 
+	<div class="card bg-dark text-center mt-4" style="min-height: 50px">
+		<div class="text-primary pt-1">
+			<h2>Produit en vedette</h2>
+		</div>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/mac.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Macbook</p>
+	        <p class="card-text text-center">Prix: 5 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/techno.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Techno</p>
+	        <p class="card-text text-center">Prix: 1 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/s3.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Sac</p>
+	        <p class="card-text text-center">Prix: 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/mac.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Samsung</p>
+	        <p class="card-text text-center">Prix: 2 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	 
+	</div>
+	<div class="card mt-3" style="background-color: #050A30">
+		<div class="row text-white pt-5" style="min-height: 120px">
+			<div class="col">
+				<h4 class="px-5">Souscrire à notre Newletter</h4>
+			</div>
+			<div class="col">
+				<form>
+					<div class="row">
+						<div class="col">
+							<input type="text" name="email" placeholder="Entrez votre mail" class="form-control">
+						</div>
+						<div class="col">
+							<button class="btn btn-primary">Envoyer</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="card bg-dark text-center mt-4" style="min-height: 50px">
+		<div class="text-primary pt-1">
+			<h2>Nouvaux produits</h2>
+		</div>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/projecteur.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Projecteur</p>
+	        <p class="card-text text-center">Prix: 4 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/imprimante.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Imprimante</p>
+	        <p class="card-text text-center">Prix: 2 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/casq.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Casque</p>
+	        <p class="card-text text-center">Prix: 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="img/disk.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Disque 500GB</p>
+	        <p class="card-text text-center">Prix: 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Achetez maintenant</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="card bg-dark text-center mt-4" style="min-height: 50px">
+		<div class="text-primary pt-1">
+			<h2>Meilleurs produits</h2>
+		</div>
+	</div>
+
+	<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/cle.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Clé USB</p>
+	        <p class="card-text text-center">Prix: 120 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commandez</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/pc.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">PC</p>
+	        <p class="card-text text-center">Prix: 2 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commendez</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/sac8.jpeg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Sac</p>
+	        <p class="card-text text-center">Prix: 200 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commandez</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/fer.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Fer</p>
+	        <p class="card-text text-center">Prix: 350 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commandez</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/disk.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Disque 500GB</p>
+	        <p class="card-text text-center">Prix: 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commandez</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-md-2">
+	    <div class="card h-100">
+	      <img src="img/disk.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	       <p class="text-center text-danger fs-3">Disque 500GB</p>
+	        <p class="card-text text-center">Prix: 500 000FG</p>
+	      </div>
+	      <div class="card-footer bg-dark">
+	        <small class="text-muted">
+	        	<button class="btn btn-primary text-center w-100 fs-5">Commander</button>
+	        </small>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="card bg-dark text-center mt-4" >
+		<div class="text-primary pt-1">
+			<h2 class="text-uppercase">Temoignages</h2>
+		</div>
+	</div>
+
+	<div class="row mt-3">
+		<div class="col ">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<div class="card mb-3" >
+			    	  <div class="row g-0">
+			    	    <div class="col-md-4">
+			    	      <img src="img/blog/mamy.PNG" class="img-fluid rounded-start" alt="...">
+			    	    </div>
+			    	    <div class="col-md-8 text-center">
+			    	      <div class="card-body text-center">
+			    	        <h4 class="card-title fw-bold">MAMY ADRIAN</h4>
+			    	        <p class="card-text">Developpeur Web</p>
+			    	        <p class="card-text">Les produits sont de la bonne qualité je vous conseil de les testés</p>
+			    	      </div>
+			    	    </div>
+			    	  </div>
+			    	</div>
+			    </div>
+
+			    <div class="carousel-item">
+			    	<div class="card mb-3" >
+			    	  <div class="row g-0">
+			    	    <div class="col-md-4">
+			    	      <img src="img/profile.jpg" class="img-fluid rounded-start" alt="...">
+			    	    </div>
+			    	    <div class="col-md-8">
+			    	      <div class="card-body text-center">
+			    	        <h4 class="card-title fw-bold">TOUNKARA JEROM</h4>
+			    	        <p class="card-text">Developpeur IT</p>
+			    	        <p class="card-text">Il s'occupe bien de ces clients</p>
+			    	      </div>
+			    	    </div>
+			    	  </div>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<div class="col">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<div class="card mb-3" >
+			    	  <div class="row g-0">
+			    	    <div class="col-md-4">
+			    	      <img src="img/blog/user.jpg" class="img-fluid rounded-start" alt="...">
+			    	    </div>
+			    	    <div class="col-md-8">
+			    	      <div class="card-body text-center">
+			    	        <h4 class="card-title fw-bold">BANGOURA LANSANA</h4>
+			    	        <p class="card-text">Developpeur mobile</p>
+			    	        <p class="card-text">Les produits sont de la bonne qualité je vous conseil de les testés</p>
+			    	      </div>
+			    	    </div>
+			    	  </div>
+			    	</div>
+			    </div>
+
+			    <div class="carousel-item">
+			    	<div class="card mb-3" >
+			    	  <div class="row g-0">
+			    	    <div class="col-md-4">
+			    	      <img src="img/blog/about.jpg" class="img-fluid rounded-start" alt="...">
+			    	    </div>
+			    	    <div class="col-md-8">
+			    	      <div class="card-body text-center ">
+			    	        <h4 class="card-title fw-bold">SACKO FATOUMATA LAMINE</h4>
+			    	        <p class="card-text">Economiste</p>
+			    	        <p class="card-text">Il s'occupe bien de ces clients</p>
+			    	      </div>
+			    	    </div>
+			    	  </div>
+			    	</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	</main>
+	<!-- fin de main -->
+	<div class="container-fluid" style="background-color:#050A30;color: #fff ">
+	  <footer class="py-5">
+	    <div class="row">
+	      <div class="col-3">
+	        <h4 class="text-danger">Reseaux Sociaux</h4>
+	        <ul class="nav flex-column">
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">twitter</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Whatsapp</a></li>
+	        </ul>
+	      </div>
+
+	      <div class="col-3">
+	        <h4 class="text-danger" >Lien</h4>
+	        <ul class="nav flex-column">
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Service</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+	          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">A propos</a></li>
+	        </ul>
+	      </div>
+
+	      <div class="col-4 offset-1">
+	        <form>
+	          <h5>Souscrire à notre newsletter</h5>
+	          <p>Resumé de ce qui est nouveau et passionnant</p>
+	          <div class="d-flex w-100 gap-2">
+	            <label for="newsletter1" class="visually-hidden">Email address</label>
+	            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+	            <button class="btn btn-primary" type="button">S'inscrire</button>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+
+	    <div class="py-4 my-4 border-top text-center">
+	      <p>&copy; 2022, Coding Life. Tous Droits Reservés.</p>
+	    </div>
+	  </footer>
+	</div>
+
+
+	
+</body>
+</html>

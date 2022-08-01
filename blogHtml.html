@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CodingBlog: Documentation HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/styleHtml.css">
+</head>
+<body>
+
+	<main>
+		<div id="menu-lateral">
+			<h2>Documentation HTML5</h2>
+			<ul>
+				<li>
+					<a href="#a">Introduction</a>
+				</li>
+				<li>
+					<a href="#b">Les fondations du HTML5</a>
+				</li>
+				<li>
+					<a href="#c">Le Squelette HTML</a>
+				</li>
+				<li>
+					<a href="#d">Les Paragraphes</a>
+				</li>
+				<li>
+					<a href="#e">Les Listes</a>
+				</li>
+				<li>
+					<a href="#f">Les Liens</a>
+				</li>
+				<li>
+					<a href="#g">Les Attributs</a>
+				</li>
+				<li>
+					<a href="#h">Les Multimedias</a>
+				</li>
+
+				<li>
+					<a href="#i">Les Blocs</a>
+				</li>
+				<li>
+					<a href="#j">Les Tableaux</a>
+				</li>
+				<li>
+					<a href="#k">Les Formulaires</a>
+				</li>
+				<li>
+					<a href="#l">Les Media query</a>
+				</li>
+				<li>
+					<a href="#">Les Blocs</a>
+				</li>
+				<li>
+					<a href="#">CSS Aancé</a>
+				</li>
+				<li>
+					<a href="#">Les Bases du HTML</a>
+				</li>
+				<li>
+					<a href="#">Les Defis</a>
+				</li>
+				<li>
+					<a href="#">Les Defis</a>
+				</li>
+				<li>
+					<a href="#">Les Defis</a>
+				</li>
+				<li>
+					<a href="#">Le HTML5 Avancé</a>
+				</li>
+				<li>
+					<a href="#">API HTML</a>
+				</li>
+				<li>
+					<a href="#">References</a>
+				</li>
+			</ul>	
+	</div>
+	<!-- creation de section -->
+
+		<div class="section">
+				<h1 id="a">INTRODUCTION</h1>
+				<p>HTML est le langage de balisage standard pour la création de pages Web.
+			Qu'est-ce que le HTML ?
+
+    HTML signifie Hyper Text Markup Language
+    HTML est le langage de balisage standard pour la création de pages Web
+    HTML décrit la structure d'une page Web
+    HTML se compose d'une série d'éléments
+    Les éléments HTML indiquent au navigateur comment afficher le contenu
+    Les éléments HTML étiquettent des éléments de contenu tels que "ceci est un titre", "ceci est un paragraphe", "ceci est un lien", etc.
+
+				</p>
+				<p>Le HTML <strong>(HyperText Markup Language)</strong> est un langage de description qui vous permet de décrire l’aspect d’un document, d’y inclure des Informations (Texte, Image, Son, Animation). Le langage a été mis au point par Tim Bernners Lee à partir de 1989.</p>
+				<h3>Le principe du web :</h3>
+				<p>
+Le web est composé de page web stockées sur des serveurs web, c’est-à-dire des machines connectées à internet en permanence et chargées de fournir les pages web demandées aux machines clientes. <br>
+Chacune des pages web est repérée par une adresse appelée URL.
+</p>
+<h3>Les éditeurs de textes :</h3>
+<p> 
+Un éditeur est un logiciel conçu pour rédiger et modifier les documents écrits en HTML. <br>
+<strong>Exemple :</strong> Bloc note, Notepad++, SublimText, etc… 
+</p>
+<h3>Les navigateurs :</h3>
+<p>
+Un navigateur internet est un logiciel informatique qui permet d’interpréter une page HTML
+et à un utilisateur d’accéder à l’internet. <br>
+<strong>Exemple :</strong> Mozilla Firefox, Google chrome, Opera, etc… 
+</p> <hr>
+				<h1 id="b">LES FONDATIONS DU HTML5</h1>
+				<h3>Les balises : </h3>
+				<p>
+Les balises permettent d’indiquer la façon dont doit être présenté le document et les liens qu’il établit avec d’autres documents. Elles sont délimitées par le chevron ouvrant (<) et le chevron fermant (>). 
+En règle générale, à toute balise d’ouverture correspond une balise de fermeture. <br>
+<strong>Exemple : &lt;a&gt; &lt;b&gt; &lt;c&gt;</strong>  - - - &lt;/c&gt; &lt;b&gt; &lt;/a&gt;  
+Il a des exceptions, certaines balises dites uniques ne comportent pas de balise de fermeture. Ce type de balise se termine toujours par un slash " / " , mais cette fois le slash se trouve à la fin de la balise. <br>
+<strong>Exemple : </strong>&lt;m/&gt;
+<h3>Les attributs :</h3>
+Un attribut est une instruction contenue à l’intérieur de la balise ouvrante et dont le but est de fournir une information supplémentaire sur la manière dont cette balise doit être interprétée.
+</p>
+				<p>La déclaration <strong>&lt;!DOCTYPE&gt;</strong> représente le type de document et aide les navigateurs à afficher correctement les pages Web.La déclaration <strong>&lt;!DOCTYPE&gt;</strong> n'est pas sensible à la casse.Les titres HTML sont définis avec les balises &lt;h1&gt; à &lt;h6&gt;.
+&lt;h1&gt; définit l'en-tête le plus important. &lt;h6&gt; définit le titre le moins important :Exemples de base HTML Dans ce chapitre, nous montrerons quelques exemples HTML de base.Ne vous inquiétez pas si nous utilisons des balises que vous n'avez pas encore apprises.Tous les documents HTML doivent commencer par une déclaration de type de document : &lt;!DOCTYPE html&gt;.Le document HTML lui-même commence par &lt;html&gt; et se termine par &lt;/html&gt;.La partie visible du document HTML se situe entre <strong>&lt;body&gt;</strong> et <strong>&lt;/body&gt;</strong>.
+				</p> <hr>
+				<h1 id="c">LE SQUELETTE</h1>
+				<h3>La structure générale d’une page HTML </h3>
+				<h3>
+
+&lt;!DOCTYPE html&gt; <br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+	&lt;title&gt;&lt;/title&gt;<br>
+	&lt;meta charset="utf-8"/&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br><br>
+
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+				</h3>
+				<p><strong>Explication :</strong> <br>
+				<ol>
+					<li><strong>&lt;!DOCTYPE html&gt; :</strong> Cette balise sert à dire au navigateur que ce que vous faites est une page HTML5.</li>
+					<li><strong>&lt;html&gt; - - - &lt;/html&gt; :</strong> c’est la balise principale qui englobera toute votre page HTML5. Comme vous pouvez le voir, on ne la ferme qu’en dernier avec <strong>&lt;/html&gt;</strong>, <br>qui indique que votre page HTML5 s’arrête là.</li>
+					<li><strong>&lt;head&gt; - - - &lt;/head&gt; :</strong> Cette balise contient quelques informations d’en-tête pour votre page web. A l’intérieur de la balise &lt;head&gt;, vous trouvez les balises :</li>
+					<li><strong>&lt;title&gt; - - - &lt;/title&gt; : </strong>Cette balise affiche le titre de la page dans la barre de titre du navigateur.</li>
+					<li><strong>&lt;meta charset="UTF-8"&gt; :</strong> Cette balise sert à indiquer que vous allez taper des caractères spéciaux.</li>
+					<li><strong>&lt;body&gt; - - -&lt;/body&gt; : </strong>Cette balise contient le contenu de votre page web.</li>
+				</ol> 
+</p>
+<hr>
+<h1 id="d">Les Paragraphes</h1>
+<p><strong>Organiser son texte :</strong> <br>
+<strong>Les paragraphes :</strong> <br>
+ <strong>&lt;p&gt; - - - &lt;/p&gt; :</strong> Définissent le début et la fin d’un paragraphe. <br>
+<strong>Revenir à la ligne :</strong> 
+&lt;br/&gt; : Cette balise sert à indiquer qu’on doit aller à la ligne.
+</p> <hr>
+<h1 id="e">Les Listes</h1>
+<p>Une liste est un paragraphe structuré contenant une suite d’articles. Le langage HTML définit trois types de listes : <br>
+<strong>Les listes non ordonnées :</strong> <br>
+<strong>
+	&lt;ul&gt; <br>
+&lt;li&gt; - - - &lt;/li&gt; <br>
+&lt;li&gt; - - - &lt;/li&gt;<br>
+.<br>
+.<br>
+.<br>
+&lt;li> - - - &lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+
+Les listes ordonnées :<br>
+&lt;ol&gt;<br>
+&lt;li&gt; - - - &lt;/li&gt;<br> 
+&lt;li&gt; - - - &lt;/li&gt;<br>
+.<br>
+.<br>
+.<br>
+&lt;li&gt; - - - &lt;/li&gt;<br>
+&lt;/ol&gt;
+</strong>
+
+</p> <hr>
+<h1 id="f">Les Liens</h1>
+<p>Les liens hypertextes sont des éléments d’une page HTML (souligné lorsqu’il s’agit d’un texte) qui emmènent dans un autre endroit lorsqu’on clique dessus. C’est ce qui permet de lier des pages web entre elles. 
+Les liens hypertextes permettent de naviguer :
+<ul>
+	<li>Vers un autre endroit du document.</li>
+	<li>Vers un fichier HTML situé à un emplacement.</li>
+	<li>Vers un site web.</li>
+</ul>
+
+<strong>Lien vers un fichier :</strong>  <br><br>
+<strong>&lt;a href="fichier.html"&gt; - - - &lt;/a&gt;</strong><br><br>
+<strong>Lien vers un site web :</strong> <br><br>
+<strong>&lt;a href= "http:// www.nom_site.com"&gt; - - - </a></strong> <br><br>
+<strong>Lien vers une ancre : </strong><br><br>
+Une ancre est un point de repère que vous pouvez mettre dans vos pages HTML lorsqu’elles sont très longues.
+Pour créer une ancre, il suffit de rajouter l’attribut id<br> à une balise  qui va servir de repère. Ça peut être n’importe quelle balise.
+Ensuite, il suffit de créer un lien comme d’habitude, mais cette fois l’attribut href contiendra<br> un dièse (#) suivi du nom de l’ancre.
+<ul>
+	<li>
+		Créer le point de repère :
+	</li>
+</ul>
+<strong>&lt;balise id="nom_ancre"&gt; - - - &lt;/balise&gt;</strong>
+<ul>
+	<li>Lien vers l’ancre :</li>
+</ul> 
+<strong>&lt;a href="#nom_ancre"&gt; - - -&lt;/a&gt;</strong>
+
+<ul>
+	<li>Un lien qui affiche une infobulle au survol : </li>
+</ul>
+Utilisez l’attribut "title" qui affiche une bulle d’aide lorsqu’on pointe sur le lien. <strong>
+&lt;a href=" - - - " title=" texte"&gt; - - - &lt;/a&gt;</strong>
+<ul>
+	<li>	Un lien qui ouvre une nouvelle fenêtre :</li>
+</ul>
+Il est possible de forcer l’ouverture d’un lien dans une nouvelle fenêtre. Pour cela, on rajoutera l’attribut target= "_blank".
+<strong>&lt;a href=" - - - " target=" _blank"&gt; - - - &lt;/a&gt;</strong> <br>
+<strong>NB :</strong> utiliser cet attribut pour un lien qui affiche un site web. Il est déconseillé d’utiliser cette technique pour les liens internes de votre site.
+</p> <hr>
+<h1 id="g">Les Attributs:</h1>
+<p> Un attribut est une instruction contenue à l’intérieur de la balise ouvrante et dont le but est de fournir une information supplémentaire sur la manière dont cette balise doit être 
+interprétée. <br>
+<strong>Exemple : </strong> <br>
+<strong>&lt;a attribut=”valeur”&gt; - - &lt;/a&gt;</strong></p> <hr>
+<h1 id="h">les images, les audios, et les vidéos</h1>
+<p>
+	<ol>
+		<li><strong>Les images :</strong></li>
+		Pour insérer une image, on utilise la balise : <br> 
+<strong>&lt;img src="mon_fichier.extension" alt="texte" title="texte"/&gt;</strong>
+	<ul>
+		<li><strong>src :</strong> il permet d’indiquer l’emplacement de l’image.</li>
+		<li><strong>alt :</strong> il  affiche un texte alternatif à la place de l’image si celle-ci ne peut être 
+téléchargée.</li>
+		<li><strong>title </strong>:cet attribut affiche une bulle d’aide.</li>
+	</ul>
+	<li><strong>Les audios :</strong></li>
+	La balise <strong>&lt;audio&gt; - - -&lt;/audio&gt;</strong> permet d’insérer une audio dans une page web. <br>
+<strong>Syntaxe :</strong>  <br>
+<strong>&lt;audio src="fichier_audio.extension" controls autoplay loop with="valeur"&gt;&lt;/audio&gt;</strong>
+<ul>
+	<li><strong>controls:</strong> affiche la barre de lecture</li>
+	<li><strong>autoplay:</strong> lance la lecture automatiquement</li>
+	<li><strong>loop:</strong> répète l’audio en boucle</li>
+</ul>
+<li><strong>Les vidéos :</strong></li>
+	Pour  une  vidéo  on  utilise  la  balise  <strong>&lt;video&gt;  -  -  -  &lt;/video&gt;.</strong>  Cette  balise  utilise  les  mêmes 
+attributs que la balise <strong>&lt;audio&gt;.</strong>
+	</ol>   
+</p> <hr>
+<h1 id="i">Les Blocs</h1>
+<p>
+  <strong>Les balises de types blocs et les balises de types inlines :</strong> <br>
+  <ul>
+  	<li><strong>Les balises de types blocs :</strong> sont des balises qui se superposent les uns sur les autres. </li>
+  	<li><strong>Les balises de types inlines :</strong> sont des balises qui sont alignés les uns à côté des autres. </li><br>
+  	<strong>Balises Blocs exemples:</strong><br>
+  	<li><strong>&lt;p&gt;</strong></li>
+  	<li><strong>&lt;h1&gt;,&lt;h2&gt;, &lt;h6&gt;</strong></li>
+  	<li><strong>&lt;ol&gt;</strong></li>
+  	<li><strong>&lt;ul&gt;</strong></li><br>
+  	<strong>Les Balises de types inlines exemples:</strong><br>
+  	<li><strong>&lt;em&gt;</strong></li>
+  	<li><strong>&lt;strong&gt;</strong></li>
+  	<li><strong>&lt;img&gt;</strong></li>
+  	<li><strong>&lt;sup&gt;</strong></li>
+  	<li><strong>&lt;a&gt;</strong></li>
+  	<li><strong>La balise &lt;div&gt;  -  -  - &lt;/div&gt; :</strong> est une balise de type bloc qui permet de faire la mise en 
+page de votre site web.</li>
+<li><strong>La balise &lt;span&gt; -  -  -  &lt;/span&gt; :  </strong>est une balise de type inline qui permet d’appliquer des styles particuliers.</li>
+
+  </ul>
+
+</p><hr>
+<h1 id="j">Les Tableaux</h1>
+<p><strong>&lt;table&gt; - - - &lt;/table&gt; :</strong>  indique le début et la fin d’un tableau. <br>
+<strong>&lt;tr&gt; - - - &lt;/tr&gt; :</strong>  indique le début et la fin d’une ligne. <br>
+<strong>&lt;td&gt; - - - &lt;/td&gt; :  </strong>indique le début et la fin d’une cellule.
+</p><hr>
+<h1 id="k">Les Formulaires</h1>
+<p><strong>&lt;form&gt; - - - &lt;/form&gt; :</strong> indique le début et la fin d’un formulaire. <br><br>
+<strong>Les éléments du formulaire : <br><br>La zone de texte monoligne : <br>&lt;input type="text"  name =”nom logique de l’élément ” placeholder= "texte explicatif"&gt; <br><br>
+Saisir un mot de passe : <br>&lt;input type="password"&gt;<br><br>
+Sélection des cases cochées : <br>
+&lt;lable for= "texte"&gt;<br>
+&lt;input type="checkbox"  name =”nom logique de l’élément ” id="texte"&gt;<br><br>
+Sélection des boutons d’options <br>
+&lt;lable for= "texte"&gt;<br>
+&lt;input type="radio"  name =”nom logique de l’élément ” id="texte"&gt;<br><br>
+La liste déroulante :<br> 
+&lt;select name=" nom logique de l’élément "&gt;<br>
+&lt;option value="texte"&gt; texte &lt;/option&gt;<br>
+&lt;option value="texte"&gt; texte &lt;/option&gt;<br>
+&lt;/select&gt;<br><br>
+ 
+
+Zone de texte multiligne :<br> 
+&lt;textarea name=" nom logique de l’élément "&gt; - - - &lt;/textarea&gt;<br><br>
+Bouton d’envoi : <br>
+&lt;input type="submit" value="texte"/&gt; </p><hr>
+<h1 id="l">Les Medias query</h1>
+<p><strong>Le responsive design :</strong> 
+<ul>
+	<li> Définition:</li>
+	Le responsive design est l’ensemble des techniques qui permet d’adapter son site  à toutes les 
+tailles d’écran.
+<li>Viewport et valeurs relatives :</li>
+Le viewport : correspond à la taille de la fenêtre web de vos visiteurs. <br>
+<strong>Syntaxe : <br>&lt;meta name="viewport" content="width=device-width, initiale-scale=1.0"/&gt;</strong><br>
+<strong>width=device-width :</strong> adapte la taille de l’écran de nos visiteurs.
+<strong>initiale-scale=1.0  :</strong>  définit  le  niveau  de  zoom  initial  lorsque  la  page  est  chargée  par  le 
+navigateur à 1.0.
+<li> Les media queries :</li> 
+<strong>La propriété @media :</strong><br>
+Permet d’appliquer différentes propriétés ou même différentes valeurs de la même propriété 
+aux éléments html sur la taille des écrans de votre visiteur et le type média utilisé. <br>
+<strong>Syntaxe :</strong>
+Tous écrans inférieurs ou égaux à la taille donnée. <br>
+<strong>@media screen and (max-width: taille en px)
+{<br><br><br>
+}
+</strong>
+</ul>
+</p>
+</div>
+
+	</main>
+
+</body>
+</html>

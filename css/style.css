@@ -1,0 +1,150 @@
+/*Etape 2 : Création du fichier css et liaison avec le fichier html*/
+* {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'opens-sans', arial, tahoma;
+}
+
+#menu-lateral {
+	background-color: rgb(5, 68, 104);
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	padding: 20px 0;
+}
+
+#menu-lateral img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid rgb(32, 44, 69);
+}
+
+#profil {
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*Design des listes du menu latéral*/
+#menu-lateral ul li a {
+	display: block;
+	padding: 13px 30px;
+	color: rgb(202, 252, 253);
+	font-size: 16px;
+	position: relative;
+}
+
+#menu-lateral ul li a:hover, a.active {
+	color: blue;
+	background-color: #fff;
+	border-bottom: 2px solid #000;
+}
+
+.active{
+	color: darkblue !important;
+}
+/*Style du bloc section*/
+.section {
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+
+.section .top-bar {
+	background-color: rgb(32, 44, 69);
+	height: 55px;
+	padding: 0 35px;
+}
+
+.section .top-bar .menu a {
+	font-size: 30px;
+	color: white;
+}
+
+.section .top-bar .menu a:hover {
+	color: rgb(172, 225, 238);
+}
+
+.section .banner {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 2em;
+	background-color: rgb(7, 105, 187);
+	height: 199px;
+}
+
+.section .titre {
+	color: #FFF;
+}
+
+
+.section .trait {
+	height: 10px;
+	background-color: rgb(255, 255, 224);
+	width: 50%;
+	margin: 20px auto;
+}
+
+.section .btn button {
+	font-size: 1em;
+	color: blue;
+}
+.section .btn button:hover {
+	color: #fff;
+	background-color: darkblue;
+}
+
+.section .contenu {
+	height: 250px;
+	margin-top: 10px;
+	padding: 0 30px;
+	display: flex;
+}
+
+.section .contenu img {
+	width: 260px;
+	height: 160px;
+}
+
+.section .contenu .article {
+	margin: 0 20px;
+}
+
+.section .contact {
+	background-color: rgb(7, 105, 187);
+	height: 200px;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.section .contact h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.section .contact p {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.section .contact form input {
+	font-size: 1.5em;
+}
+
+.section .contact form button {
+	font-size: 1.5em;
+	margin-left: 10px;
+} 
+
+/* Style du pied page */
+.section .footer {
+	background-color: rgb(32, 44, 69);
+	height: 50px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
